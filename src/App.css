@@ -25,9 +25,10 @@
 }
 
 .App-content-section {
-  background-color: lightskyblue;
+  background-color: lightsteelblue;
+  color: #222222;
   margin: auto;
-  width: 90%;
+  width: 100%;
   padding-top: 1px;
   padding-bottom: 20px;
 }
