@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: lightsteelblue;
+  background-color: #111111;
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
 }
@@ -11,13 +11,12 @@
 }
 
 .App-header {
-  background-color: #222222;
+  background-color: black;
   height: 180px;
   padding: 20px;
-  color: lightsteelblue;
+  color: lightgray;
   text-align: left;
   font-size: large;
-  font-family: 'Comic Sans MS', SansSerif, sans-serif;
 }
 
 .App-intro {
@@ -25,8 +24,8 @@
 }
 
 .App-content-section {
-  background-color: lightsteelblue;
-  color: #222222;
+  background-color: #111111;
+  color: white;
   margin: auto;
   width: 100%;
   padding-top: 1px;
