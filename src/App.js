@@ -8,11 +8,17 @@ class App extends Component {
           <header className="App-header">
               <h2>Supa Squidds</h2>
               <h5>A music group from Denver, Colorado</h5>
-              <a href="https://soundcloud.com/will-and-dawson-beats">SoundCloud</a>
-              &nbsp;
-              <a href="https://www.youtube.com/channel/UCR9w3xFUSjoym2O0Qnqwiyg">YouTube</a>
-              &nbsp;
-              <a href="https://www.instagram.com/supa_squidds/">Instagram</a>
+              <a href="https://soundcloud.com/will-and-dawson-beats">
+                  <img src="soundcloud_logo.png" alt="SoundCloud" width="32" height="32"/>
+              </a>
+              &nbsp;&nbsp;
+              <a href="https://www.youtube.com/channel/UCR9w3xFUSjoym2O0Qnqwiyg">
+                  <img src="youtube_logo.png" alt="YouTube" width="32" height="32"/>
+              </a>
+              &nbsp;&nbsp;
+              <a href="https://www.instagram.com/supa_squidds/">
+                  <img src="instagram_logo.png" alt="Instagram" width="32" height="32"/>
+              </a>
           </header>
 
           <div className="App-content-section">

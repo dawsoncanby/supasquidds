@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #111111;
+  background-color: lightsteelblue;
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
 }
@@ -11,10 +11,10 @@
 }
 
 .App-header {
-  background-color: black;
+  background: linear-gradient(cornflowerblue, lightskyblue);
   height: 180px;
   padding: 20px;
-  color: lightgray;
+  color: #111111;
   text-align: left;
   font-size: large;
 }
@@ -24,8 +24,8 @@
 }
 
 .App-content-section {
-  background-color: #111111;
-  color: white;
+  background: linear-gradient(lightskyblue, lightsteelblue);
+  color: #111111;
   margin: auto;
   width: 100%;
   padding-top: 1px;
