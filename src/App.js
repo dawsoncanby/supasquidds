@@ -8,7 +8,7 @@ class App extends Component {
           <header className="App-header">
               <h2>Supa Squidds</h2>
               <h5>A music group from Denver, Colorado</h5>
-              <a href="https://soundcloud.com/will-and-dawson-beats">
+              <a href="https://soundcloud.com/supasquidds">
                   <img src="soundcloud_logo.png" alt="SoundCloud" width="32" height="32"/>
               </a>
               &nbsp;&nbsp;
@@ -30,8 +30,10 @@ class App extends Component {
           </header>
 
           <div className="App-content-section">
-              <h2> Aquatic Boys out now!!</h2>
-              <iframe width="90%" height="800px" src="https://artist.landr.com/music/800739333734"></iframe>
+              <h2> Dinner Party Music Video Out Now! </h2>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/chc15JS6s8c" frameBorder="0"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen></iframe>
               <h2>Recent Tracks</h2>
               <iframe width="90%" height="450" scrolling="no" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/229298628&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
           </div>
