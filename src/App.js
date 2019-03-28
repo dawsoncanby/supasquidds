@@ -5,9 +5,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          <header className="App-header">
-              <h2>Supa Squidds</h2>
-              <h5>A music group from Denver, Colorado</h5>
+          <div className="App-content-section">
+              <h1>Supa Squidds</h1>
               <a href="https://soundcloud.com/supasquidds">
                   <img src="soundcloud_logo.png" alt="SoundCloud" width="32" height="32"/>
               </a>
@@ -27,15 +26,10 @@ class App extends Component {
               <a href="https://itunes.apple.com/us/artist/supa-squidds/1344140343">
                   <img src="itunes_logo.png" alt="Itunes" width="32" height="32"/>
               </a>
-          </header>
 
-          <div className="App-content-section">
-              <h2> Dinner Party Music Video Out Now! </h2>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/chc15JS6s8c" frameBorder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen></iframe>
+
               <h2>Recent Tracks</h2>
-              <iframe width="90%" height="450" scrolling="no" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/229298628&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+              <iframe width="90%" height="450" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/229298628&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
           </div>
       </div>
     );
